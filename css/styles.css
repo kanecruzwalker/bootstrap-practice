@@ -7,7 +7,17 @@ h1{
     size: 3.5rem;
     line-height: 1.5;
 }
-
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8F8F8F;
+}
 
 /* CLASS */
 .container-fluid{
@@ -51,12 +61,73 @@ h1{
 }
 
 /* Information Row */
+
+/* Features Section */
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#features{
+ padding: 7% 15%;
+}
+
+
+
 .circle-icon{
     color: #ef8172;
+    margin-bottom: 1rem;
 }
 .bullseye-icon{
     color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 .heart-icon{
     color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
+
+.circle-icon:hover{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.bullseye-icon:hover{
+    color: #ff4c68;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.heart-icon:hover{
+    color: #ff4c68;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
