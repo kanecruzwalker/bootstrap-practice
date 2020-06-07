@@ -21,7 +21,7 @@ p{
 
 /* CLASS */
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     
 
 }
@@ -30,6 +30,7 @@ p{
 #title {
     background-color: #ff4c68;
     color: #fff;
+
 }
 
 /* navbar */
@@ -58,6 +59,8 @@ p{
 .phone-image{
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
 /* Information Row */
@@ -66,10 +69,14 @@ p{
 .feature-box{
     text-align: center;
     padding: 5%;
+
 }
 
 #features{
  padding: 7% 15%;
+ background-color: #fff;
+ position: relative;
+ z-index: 1;
 }
 
 
@@ -131,3 +138,21 @@ p{
     margin: 20px 20px 50px;
 }
 
+/* Pricing Sectin */
+#pricing{
+    padding:100px ;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1280px ) {
+    .phone-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
