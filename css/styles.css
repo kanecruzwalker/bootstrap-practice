@@ -1,27 +1,28 @@
 /* TAG */
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-    size: 3.5rem;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-h3{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 p{
     color: #8F8F8F;
 }
 
+/* Headings */
+.big-heading{
+    line-height: 1.5;
+    size: 3.5rem;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* CLASS */
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
     
 
 }
@@ -30,7 +31,10 @@ p{
 #title {
     color: #fff;
     background-color: #ff4c68;
-
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* navbar */
@@ -68,17 +72,16 @@ p{
 /* Features Section */
 .feature-box{
     padding: 5%;
-    text-align: center;
-
 }
 
 #features{
     background-color: #fff;
- padding: 7% 15%;
- position: relative;
- z-index: 1;
+    position: relative;
+    z-index: 1;
 }
-
+.feature-title{
+    font-size: 1.5rem;
+}
 
 
 .circle-icon{
@@ -116,22 +119,21 @@ p{
 #testimonials{
     background-color: #ef8172;
     color: #fff;
-    text-align: center;
 }
 .testimonial-image{
     border-radius: 100%;
     margin: 20px;
     width: 10%;
 }
-.carousel-item{
-    padding: 7% 15%;
+.testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5; 
 }
 
 /* Press Section */
 #press{
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 .press-logo{
     margin: 20px 20px 50px;
@@ -141,10 +143,13 @@ p{
 /* Pricing Sectin */
 #pricing{
     padding:100px ;
-    text-align: center;
 }
 .pricing-column{
     padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 @media (max-width: 1280px ) {
@@ -159,14 +164,12 @@ p{
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
 }
-.cta-h3{
-    padding: 5% 10%;
-}
+
 
 #footer{
     background-color: #fff;
-    padding: 10% 20%;
-    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
 }
