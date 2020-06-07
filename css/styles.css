@@ -20,21 +20,24 @@ p{
     line-height: 1.5;
 }
 
-/* CLASS */
+/* Containers */
 .container-fluid{
     padding: 7% 15%;
-    
-
 }
-
-/* ID */
-#title {
+.colored-section{
     color: #fff;
     background-color: #ff4c68;
-    text-align: left;
 }
+.white-section{
+    background-color: #fff;
+}
+
+/* CLASS */
+
+/* ID */
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* navbar */
@@ -75,7 +78,7 @@ p{
 }
 
 #features{
-    background-color: #fff;
+
     position: relative;
     z-index: 1;
 }
@@ -118,7 +121,6 @@ p{
 /* Testimonials */
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 .testimonial-image{
     border-radius: 100%;
@@ -162,9 +164,6 @@ p{
     }
 }
 
-#cta {
-    background-color: #ff4c68;
-}
 
 
 #footer{
